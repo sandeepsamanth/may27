@@ -1,0 +1,58 @@
+body{
+    background-color: #1A1A1C;
+    color: #FFFFFF;
+}
+.barsButtons{
+    display: flex;
+     margin-top: 53px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    background-color: #1A1A1C;
+}
+#search{
+
+    border: 1px solid #8E8E8E;
+    outline: none;
+    width: 767px;
+    padding: 9px;
+    color: white;
+    background: #1A1A1C;
+    border-radius: 1px;
+    
+}
+#search::placeholder{
+    color: #FFFFFF;
+}
+#mkt , #percentage{
+
+    background: #1A1A1C;
+    border: 1px solid #8E8E8E;
+    color: #ffff;
+    padding: 9px;
+    border-radius: 2px;
+    font-size: 13px;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+img{
+    width: 15px;
+    height: 15px;
+}
+table{
+    width: 1300px;
+    height: 400px;
+    margin-left: 180px;
+}
+
+.percent
+{
+    color: green;
+}
+.red{
+    color: red;
+}
